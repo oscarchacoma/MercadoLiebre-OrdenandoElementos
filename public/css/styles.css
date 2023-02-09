@@ -140,6 +140,9 @@ footer span {
     font-size: var(--parrafos);
 }
 
+div.subFooter {
+    background-color: white;
+}
 /* MAIN */
 
 main.home__productos {
@@ -225,6 +228,7 @@ main section.seccion__productos article.seccion__productos--titulo--tarjeta img 
     main section article.seccion__productos--titulo--tarjeta {
         border: 15px solid var(--gris-claro) ;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin-bottom: 25px;
         
     }
    main section article section.prueba h5 {
@@ -277,7 +281,7 @@ main section.seccion__productos article.seccion__productos--titulo--tarjeta img 
     
     
     .seccion__productos {
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     footer {
